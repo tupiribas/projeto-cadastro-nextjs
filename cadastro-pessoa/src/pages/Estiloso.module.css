@@ -1,0 +1,79 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.roxo {
+    color: #fff;
+    padding: 20px;
+    float: left;
+    position: fixed;
+}
+
+.roxo h1 p {
+    margin: 10px;
+}
+
+.roxo h1 {
+    font-size: 2.5em;
+}
+
+.roxo p {
+    background-color: rgba(85, 85, 85, 0.671);
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.barra_suspensa {
+    background-color: rgb(85, 85, 85);
+    border-radius: 5px;
+    width: 100px;
+    height: 3px;
+}
+
+.corpo {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    margin-top: 230px;
+    padding: 10px;
+    background-color: rgb(48, 48, 48);
+    border-radius: 25px 25px 0px 0px;
+}
+
+.opcoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(83, 83, 83, 0.623);
+    border-radius: 30px;
+    margin: 20px 0px 0px 0px;
+    padding-inline: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.area_opcao_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.area_opcao_menu > p {
+    margin-top: -5px;
+    font-size: 0.85em;
+}
+
+.opcao {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #3A1C71 0%, #D76D77 0%, #ffb07bc9 100%);
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    align-items: center;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+}

@@ -1,5 +1,7 @@
 html,
 body {
-    background-color: #222;
+    background-image: linear-gradient(to right, #3A1C71 , #D76D77, #ffb07bc9);
+    background-attachment: fixed;
+    background-size: cover;
     color: #eee;
 }
