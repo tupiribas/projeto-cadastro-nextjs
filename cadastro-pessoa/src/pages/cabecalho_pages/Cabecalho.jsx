@@ -1,6 +1,6 @@
-import styles from './Header.module.css'
+import styles from './Cabecalho.module.css'
 
-export default function Header(props) {
+export default function Cabecalho(props) {
     return (
         <div className={styles.cabecalho}>
             <h1>{props.titulo}</h1>
