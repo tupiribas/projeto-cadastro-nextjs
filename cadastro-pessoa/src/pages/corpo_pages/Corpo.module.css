@@ -1,0 +1,24 @@
+.barra_suspensa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -10px;
+}
+
+.barra_suspensa > p {
+    background-color: rgb(85, 85, 85);
+    border-radius: 5px;
+    width: 100px;
+    height: 3px;
+}
+
+.corpo {
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 210px;
+    background-color: rgb(48, 48, 48);
+    border-radius: 25px 25px 0px 0px;
+}

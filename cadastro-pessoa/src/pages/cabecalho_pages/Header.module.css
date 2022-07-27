@@ -1,0 +1,20 @@
+.cabecalho {
+    color: #fff;
+    padding: 20px;
+    float: left;
+    position: fixed;
+}
+
+.cabecalho h1 p {
+    margin: 10px;
+}
+
+.cabecalho h1 {
+    font-size: 2.5em;
+}
+
+.cabecalho p {
+    background-color: rgba(85, 85, 85, 0.671);
+    border-radius: 3px;
+    padding: 10px;
+}
