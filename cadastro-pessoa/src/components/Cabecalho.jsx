@@ -1,7 +1,13 @@
+import styles from '../styles/Cabecalho.module.css'
+
 export default function Cabecalho(props) {
     return (
-        <header>
-            <h2>{props.texto}</h2>
-        </header>
+        <div className={styles.cabecalho}>
+            <h1>{props.titulo}</h1>
+            <p>
+                {props.descricao}
+                {/* Lorem ipsum felis diam donec dictumst in hendrerit bibendum amet elementum. */}
+            </p>
+        </div>
     )
 }

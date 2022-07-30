@@ -1,4 +1,4 @@
-import styles from './Navegacao.module.css'
+import styles from '../styles/Navegacao.module.css'
 import Link from "next/link";
 
 export default function Navegacao(props) {

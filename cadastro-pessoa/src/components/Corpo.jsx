@@ -1,4 +1,4 @@
-import styles from './Corpo.module.css'
+import styles from '../styles/Corpo.module.css'
 
 export default function Corpo(props) {
     return (
