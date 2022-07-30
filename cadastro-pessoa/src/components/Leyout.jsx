@@ -12,7 +12,7 @@ export default function Leyout(props) {
                 <Navegacao 
                     opcoes={["Home", "Sobre", "Cadastro", "Lista"]}
                     icone={['home', 'info', 'address-card', 'list']}
-                    link={['./', './Sobre', './', './']}
+                    caminho={['./', './Sobre', './cadastro/', './Lista']}
                 />  
                 {props.children}   
             </Corpo>

@@ -1,5 +1,4 @@
 import Leyout from '../components/Leyout'
-import styles from '../styles/Index.module.css'
 
 export default function Sobre() {
     return (

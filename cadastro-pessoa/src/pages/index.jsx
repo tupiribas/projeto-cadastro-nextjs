@@ -5,6 +5,7 @@ export default function Index() {
         <Leyout 
             titulo="Home"
             descricao="Sistema de cadastro de pessoas">
+                
         </Leyout>
     )
 }
